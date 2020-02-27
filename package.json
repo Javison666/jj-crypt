@@ -1,0 +1,17 @@
+{
+  "name": "jj-crypt",
+  "version": "1.0.0",
+  "author": "Javison <web_jwq@163.com> (https://www.jiweiqing.cn/)",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "private": false,
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc && webpack"
+  },
+  "keywords": [
+    "typescript",
+    "js"
+  ]
+}
