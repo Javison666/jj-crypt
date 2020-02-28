@@ -32,7 +32,7 @@ class Uint8arrayCrypt {
         return out;
     }
     // Uint8Array转数值(自定义)
-    public static encodeToNumber(uint8Array: any): any {
+    public static encodeToNum(uint8Array: any): any {
         const arr = [];
         for (let i = 0; i < uint8Array.length; i++) {
             arr.push(Number(uint8Array[i]).toString(16))

@@ -41,7 +41,7 @@ var Uint8arrayCrypt = /** @class */ (function () {
         return out;
     };
     // Uint8Array转数值(自定义)
-    Uint8arrayCrypt.encodeToNumber = function (uint8Array) {
+    Uint8arrayCrypt.encodeToNum = function (uint8Array) {
         var arr = [];
         for (var i = 0; i < uint8Array.length; i++) {
             arr.push(Number(uint8Array[i]).toString(16));

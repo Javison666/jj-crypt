@@ -1,6 +1,6 @@
 declare class Uint8arrayCrypt {
     static encodeToStr(array: any): any;
-    static encodeToNumber(uint8Array: any): any;
+    static encodeToNum(uint8Array: any): any;
     static hex2int(hex: any): any;
     static decodeFromStr(str: any): any;
     static decodeFromStrByLen(str: any, len: any): any;
