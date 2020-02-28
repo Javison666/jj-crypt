@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Uint8arrayCrypt = /** @class */ (function () {
     function Uint8arrayCrypt() {
     }
@@ -107,5 +109,5 @@ var Uint8arrayCrypt = /** @class */ (function () {
     };
     return Uint8arrayCrypt;
 }());
-export default Uint8arrayCrypt;
+exports.default = Uint8arrayCrypt;
 //# sourceMappingURL=uint8array.js.map
